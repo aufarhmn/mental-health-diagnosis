@@ -4,7 +4,6 @@
 
 ; Inisiasi/Awalan Program untuk welcome screen
 (defrule Init
-    (initial-fact)
     =>
     (printout t crlf "=========================================================="
                 crlf "        Expert System for Diagnosing Mental Health        "
